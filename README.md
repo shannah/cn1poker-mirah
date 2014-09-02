@@ -1,5 +1,7 @@
 #Codename One Poker Demo in Mirah
 
+![Screenshot of poker demo](screenshots/Poker.png)
+
 This project is a proof of concept of using the Mirah programming language to write Codename One applications.  I simply ported the Codename One Poker Demo (written by Shai Almog) to Mirah.  
 
 ###Why Mirah?
