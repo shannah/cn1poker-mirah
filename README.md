@@ -2,7 +2,9 @@
 
 ![Screenshot of poker demo](screenshots/Poker.png)
 
-This project is a proof of concept of using the [Mirah programming language](http://mirah.org) to write [Codename One](http://www.codenameone.com) applications.  I simply ported the [Codename One Poker Demo](http://www.codenameone.com/blog/you-can-bet-on-it) (written by Shai Almog) to Mirah.  
+This project is a proof of concept of using the [Mirah programming language](http://mirah.org) to write [Codename One](http://www.codenameone.com) applications.  I simply ported the [Codename One Poker Demo](http://www.codenameone.com/blog/you-can-bet-on-it) (written by Shai Almog) to Mirah. 
+
+**Compare the original [Java source](https://code.google.com/p/codenameone/source/browse/trunk/Demos/CN1Poker/src/com/codename1/demo/poker/Poker.java) to the [Mirah source](src/com/codename1/demo/poker/mirah/Poker.mirah)** 
 
 ###Why Mirah?
 
