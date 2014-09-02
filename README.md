@@ -210,7 +210,7 @@ cardBack.addActionListener(new ActionListener() {
 });
 ~~~
 
-***Mirah:**
+**Mirah:**
 
 ~~~
 @cardBack.addActionListener do |evt|
