@@ -2,7 +2,7 @@
 
 ![Screenshot of poker demo](screenshots/Poker.png)
 
-This project is a proof of concept of using the Mirah programming language to write Codename One applications.  I simply ported the Codename One Poker Demo (written by Shai Almog) to Mirah.  
+This project is a proof of concept of using the [Mirah programming language](http://mirah.org) to write [Codename One](http://www.codenameone.com) applications.  I simply ported the [Codename One Poker Demo](http://www.codenameone.com/blog/you-can-bet-on-it) (written by Shai Almog) to Mirah.  
 
 ###Why Mirah?
 
@@ -19,8 +19,8 @@ These two properties make Mirah an ideal candidate for Codename One.  The fact t
 
 To build this app, you need to be running NetBeans 7.4 or higher (may work in earlier versions, but isn't tested), with the following plugins installed:
 
-1. The Codename One plugin.
-2. The Mirah Netbeans plugin.
+1. [The Codename One plugin](http://plugins.netbeans.org/plugin/42406/codename-one)
+2. [The Mirah Netbeans plugin](https://github.com/shannah/mirah-nbm)
 
 ###Steps
 
@@ -37,7 +37,7 @@ git clone https://github.com/shannah/cn1poker-mirah.git
 
 The original Java source code for the Poker demo can be found [here](https://code.google.com/p/codenameone/source/browse/trunk/Demos/CN1Poker/src/com/codename1/demo/poker/Poker.java).  
 
-The Mirah version of this class (which comprises the whole demo) can be seen [here](src/com/codename1/demo/poker/mirah/Poker.java).
+The Mirah version of this class (which comprises the whole demo) can be seen [here](src/com/codename1/demo/poker/mirah/Poker.mirah).
 
 If you're not familiar with Mirah, here is a *very* brief description:
 
@@ -279,6 +279,11 @@ Then I use this class in Mirah:
 shuffledDeck = CardList.new(Arrays.asList(deck))
 ~~~
 
+##Credits
+
+This project was created and is maintained by [Steve Hannah](http://sjhannah.com).  Thanks to the [Codename One team](http://www.codenameone.com/) for a fantastic mobile development platform, and to the [Mirah team](http://mirah.org) for a new and exciting language for the JVM.  These two technologies seem like a match made in heaven.
+
+
 ##More Reading
 
 1. [Mirah Website](http://mirah.org)
@@ -286,3 +291,4 @@ shuffledDeck = CardList.new(Arrays.asList(deck))
 3. [Java Version of Poker Demo](https://code.google.com/p/codenameone/source/browse/trunk/Demos/CN1Poker/)
 4. [Codename One Website](http://www.codenameone.com)
 5. [Mirah NetBeans Plugin](https://github.com/shannah/mirah-nbm)
+6. [Codename One Poker Demo](http://www.codenameone.com/blog/you-can-bet-on-it) - blog post with screencast of Poker demo running in simulator.
