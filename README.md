@@ -6,6 +6,13 @@ This project is a proof of concept of using the [Mirah programming language](htt
 
 **Compare the original [Java source](https://code.google.com/p/codenameone/source/browse/trunk/Demos/CN1Poker/src/com/codename1/demo/poker/Poker.java) to the [Mirah source](src/com/codename1/demo/poker/mirah/Poker.mirah)** 
 
+##Screencast
+
+The following screencast demonstrates the use of the NetBeans Mirah plugin to develop a Codename One application using Mirah.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/uGgppdsMCjA" frameborder="0" allowfullscreen></iframe>
+
+
 ###Why Mirah?
 
 Mirah is unique among JVM programming languages in that it satisfies the following two properties:
